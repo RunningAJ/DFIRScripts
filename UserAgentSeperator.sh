@@ -38,6 +38,5 @@ do
         fname=$(echo $i | tr -d '/,')
         searchstring='http.request.method == "POST" and http.user_agent == "'$i
         searchstring=$searchstring'"'
-        #searchstring=$(echo "'"$searchstring"'")
         tshark -n -r $PCAP -Y $searchstring -w $output/$fname.pcap
 done
