@@ -15,6 +15,10 @@
 # came about as an easy way for me to identify many of the IoT devices connected on my home
 # network.
 #
+# INSTRUCTIONS: To run this script, run it from the interpreter. The prompt will ask you what
+# network you want to scan. Depending on the amount of devices on your network this script
+# may take 1 - 15 minutes to execute.
+#
 # Thanks to https://macvendors.com/  for providing the API to lookup MACs with accuracy
 ############################################################################################# 
 # Importing Modules for the script
