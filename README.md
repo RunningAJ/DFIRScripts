@@ -11,6 +11,11 @@ Purpose: Parse IE history and then output to a CSV file. Only tested on Windows 
 
 python3 Browser_IE_History.py -i /fullpath/IEHistoryfile.dat -o /fullpath/history.csv
 
+# Network_PCAP_UserAgentSeperator
+Purpose: Extract PCAPs based on different user agent strings in a PCAPs. Helpfull to find potential C2.
+
+bash UserAgentSeperator.sh /folder/filelocation.pcap /outputdirectory
+
 # Windows10_Amcache_Parser
 Purpose: Parse the amcache to look for evidence of program execution and also the hash of the program executed. When executed this will output a CSV file.
 
