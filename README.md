@@ -16,6 +16,11 @@ Purpose: Extract PCAPs based on different user agent strings in a PCAPs. Helpful
 
 bash UserAgentSeperator.sh /folder/filelocation.pcap /outputdirectory
 
+# Windows_GetExternalLinks
+Purpose: The point of this POSH function is to parse LNK files to find links that point to external network locations for their icon. This has been used as a way to get an NTLM hash. 
+
+get-externalLinks -path c:\
+
 # Windows10_Amcache_Parser
 Purpose: Parse the amcache to look for evidence of program execution and also the hash of the program executed. When executed this will output a CSV file.
 
